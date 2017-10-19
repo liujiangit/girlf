@@ -18,7 +18,7 @@ public class GirlService {
         girl.setCupSize("v");
         girl.setAge(12);
         girlRepository.save(girl);
-
+        System.out.println("第二个修改的地方");
         Girl girl2 = new Girl();
         girl2.setCupSize("BBBB");
         girl2.setAge(12);
