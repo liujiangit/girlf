@@ -59,6 +59,7 @@ public class GirlController {
 
     @GetMapping(value = "/girls/two")
     public void girlTwo(){
+        System.out.println("hi");
         girlService.insertTwo();
     }
 
